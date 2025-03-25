@@ -183,7 +183,6 @@ int main(void)
     
     char input[10];
     startingPosition(piece, letter, 1);
-    int pom = 1;
     for (int i = 10; ; i++)
     {
         if(i % 2 == 0)
@@ -197,9 +196,6 @@ int main(void)
                 break;
             
             printf("\n");
-
-            printf("Brojac: %d\n", pom);
-            pom++;
 
             if(moveInput(piece, letter, input, 1))
             {
@@ -223,9 +219,6 @@ int main(void)
                 break;
 
             printf("\n");
-
-            printf("Brojac: %d\n", pom);
-            pom++;
 
             if(moveInput(piece, letter, input, 2))
             {
