@@ -52,13 +52,9 @@ The engine expects simplified chess move notation:
 The board is printed after each move. You will be prompted to enter your move in a format similar to `P2e4`. The engine will validate your input, execute the move if valid, and switch turns.
 
 ## Planned Improvements
-
-- Castling
-- En passant
-- Pawn promotion
 - Basic AI opponent
 - Undo/redo functionality
-- Move history tracking
+- Check-mate
 
 ## License
 
