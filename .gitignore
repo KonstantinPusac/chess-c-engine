@@ -1,0 +1,19 @@
+# Binaries
+chess
+*.exe
+
+# Object files
+*.o
+
+# Logs and temp
+*.log
+*.tmp
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# OS-generated
+.DS_Store
+Thumbs.db
