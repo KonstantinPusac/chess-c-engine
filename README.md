@@ -10,7 +10,7 @@ This is a terminal-based chess engine written in the C programming language. The
 - Separation of logic for white and black pieces
 - Move parsing with support for capturing (notation using `x`)
 - Defensive input validation
-- Easily extensible for future improvements such as castling, en passant, and AI
+- Easily extensible for future improvements such as check-mate, AI
 
 ## Project Files
 
